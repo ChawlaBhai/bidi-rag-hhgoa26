@@ -1,0 +1,134 @@
+[
+  {
+    "id": "msmarco_xi_101",
+    "lang": "hi",
+    "lang_name": "Hindi",
+    "title": "Manhattan Project Impact",
+    "query": "मैनहटन प्रोजेक्ट का तत्काल प्रभाव क्या था?",
+    "query_en": "What was the immediate impact of the Manhattan Project?",
+    "passage": "मैनहटन प्रोजेक्ट (Manhattan Project) द्वितीय विश्व युद्ध के दौरान संयुक्त राज्य अमेरिका, यूनाइटेड किंगडम और कनाडा द्वारा संचालित एक गुप्त शोध परियोजना थी। इसका प्राथमिक उद्देश्य पहला परमाणु बम विकसित करना था। 6 और 9 अगस्त 1945 को हिरोशिमा और नागासाकी पर परमाणु हमले के बाद जापान ने आत्मसमर्पण कर दिया, जिससे द्वितीय विश्व युद्ध का तत्काल अंत हुआ और परमाणु युग की शुरुआत हुई।",
+    "answers": ["हिरोशिमा और नागासाकी पर बमबारी के बाद जापान का आत्मसमर्पण और द्वितीय विश्व युद्ध का अंत।"],
+    "category": "History"
+  },
+  {
+    "id": "msmarco_xi_102",
+    "lang": "en",
+    "lang_name": "English",
+    "title": "Goa Liberation 1961",
+    "query": "When was Goa liberated from Portuguese rule?",
+    "query_en": "When was Goa liberated from Portuguese rule?",
+    "passage": "Operation Vijay was the operation by the Indian Armed Forces that led to the annexation of Portuguese India—including Goa, Daman, and Diu—into the Indian Union in December 1961. Armed action was carried out by the Indian Armed Forces over 36 hours, ending 451 years of Portuguese colonial rule in Goa on December 19, 1961.",
+    "answers": ["December 19, 1961, through Operation Vijay."],
+    "category": "History"
+  },
+  {
+    "id": "msmarco_xi_103",
+    "lang": "hinglish",
+    "lang_name": "Hinglish",
+    "title": "World War II European Impact",
+    "query": "Can you tell me about World War II ka impact on European countries?",
+    "query_en": "Can you tell me about the impact of World War II on European countries?",
+    "passage": "World War II ka Europe par bahut bada destruction aur economic collapse pada. Lakhon log displace hue, Infrastructure completely destroy ho gaya, aur Marshall Plan ke zariye Western Europe ko rebuild kiya gaya. Cold War ki shuruaat hui aur Europe East aur West Blocs mein divide ho gaya.",
+    "answers": ["Economic destruction, infrastructure collapse, Marshall Plan reconstruction, and division into East/West blocs during Cold War."],
+    "category": "History"
+  },
+  {
+    "id": "msmarco_xi_104",
+    "lang": "hi",
+    "lang_name": "Hindi",
+    "title": "Photosynthesis Process",
+    "query": "प्रकाश संश्लेषण (Photosynthesis) की प्रक्रिया क्या है?",
+    "query_en": "What is the process of photosynthesis?",
+    "passage": "प्रकाश संश्लेषण (Photosynthesis) वह प्रक्रिया है जिसके द्वारा हरे पौधे, शैवाल और कुछ जीवाणु सूर्य के प्रकाश की ऊर्जा का उपयोग करके कार्बन डाइऑक्साइड (CO2) और पानी (H2O) को ग्लूकोज और ऑक्सीजन (O2) में बदलते हैं। यह क्रिया क्लोरोफिल (Chlorophyll) में संपन्न होती है।",
+    "answers": ["सूर्य के प्रकाश, CO2 और पानी का उपयोग करके ग्लूकोज और ऑक्सीजन बनाने की प्रक्रिया।"],
+    "category": "Science"
+  },
+  {
+    "id": "msmarco_xi_105",
+    "lang": "en",
+    "lang_name": "English",
+    "title": "Quantum Computing Qubits",
+    "query": "How do qubits differ from classical bits in quantum computing?",
+    "query_en": "How do qubits differ from classical bits in quantum computing?",
+    "passage": "Classical bits represent data strictly as either a 0 or a 1. Quantum bits (qubits), however, leverage the quantum principles of superposition and entanglement. Superposition allows a qubit to exist in a state representing 0, 1, or any proportion of both simultaneously, enabling exponential computational speedups for specific algorithms.",
+    "answers": ["Qubits can exist in superposition (0 and 1 simultaneously) and entanglement, unlike classical binary bits."],
+    "category": "Technology"
+  },
+  {
+    "id": "msmarco_xi_106",
+    "lang": "mr",
+    "lang_name": "Marathi",
+    "title": "Shivaji Maharaj Capital",
+    "query": "छत्रपती शिवाजी महाराजांची राजधानी कोणती होती?",
+    "query_en": "What was the capital of Chhatrapati Shivaji Maharaj?",
+    "passage": "छत्रपती शिवाजी महाराज यांनी १६७४ मध्ये रायगड किल्ल्यावर स्वतःचा राज्याभिषेक करून घेतला आणि रायगडला मराठा साम्राज्याची राजधानी बनवले. रायगड हा किल्ला दुर्गम आणि सुरक्षित मानला जात असे.",
+    "answers": ["रायगड किल्ला मराठा साम्राज्याची राजधानी होती."],
+    "category": "History"
+  },
+  {
+    "id": "msmarco_xi_107",
+    "lang": "ta",
+    "lang_name": "Tamil",
+    "title": "Thirukkural Author & Structure",
+    "query": "திருக்குறளை எழுதியவர் யார் மற்றும் அதன் அமைப்பு என்ன?",
+    "query_en": "Who wrote Thirukkural and what is its structure?",
+    "passage": "திருக்குறள் தமிழ் மொழியில் எழுதப்பட்ட உலகப் புகழ்பெற்ற வாழ்வியல் நூலாகும். இதை திருவள்ளுவர் இயற்றினார். இதில் 1330 குறள்கள் உள்ளன, அவை அறத்துப்பால், பொருட்பால், காமத்துப்பால் என மூன்று முக்கிய பிரிவுகளாக பிரிக்கப்பட்டுள்ளன.",
+    "answers": ["திருவள்ளுவர் எழுதினார். 1330 குறள்கள் 3 பிரிவுகளாக உள்ளன."],
+    "category": "Culture"
+  },
+  {
+    "id": "msmarco_xi_108",
+    "lang": "hi",
+    "lang_name": "Hindi",
+    "title": "ISRO Chandrayaan-3 Mission",
+    "query": "चंद्रयान-3 मिशन की मुख्य सफलता क्या थी?",
+    "query_en": "What was the main success of the Chandrayaan-3 mission?",
+    "passage": "भारतीय अंतरिक्ष अनुसंधान संगठन (ISRO) द्वारा 23 अगस्त 2023 को चंद्रयान-3 के विक्रम लैंडर ने चंद्रमा के दक्षिणी ध्रुव (South Pole) के पास सफलतापूर्वक सॉफ्ट लैंडिंग की। भारत चंद्रमा के दक्षिणी ध्रुव पर उतरने वाला दुनिया का पहला देश और चंद्रमा पर सॉफ्ट लैंडिंग करने वाला चौथा देश बना।",
+    "answers": ["चंद्रमा के दक्षिणी ध्रुव पर सफलतापूर्वक सॉफ्ट लैंडिंग करने वाला दुनिया का पहला देश बनना।"],
+    "category": "Science"
+  },
+  {
+    "id": "msmarco_xi_109",
+    "lang": "en",
+    "lang_name": "English",
+    "title": "DNA Double Helix Structure",
+    "query": "Who discovered the double helix structure of DNA?",
+    "query_en": "Who discovered the double helix structure of DNA?",
+    "passage": "The double helix structure of DNA was discovered in 1953 by James Watson and Francis Crick, relying heavily on X-ray diffraction data collected by Rosalind Franklin and Maurice Wilkins. This discovery revealed how genetic information is stored and replicated in living organisms.",
+    "answers": ["James Watson and Francis Crick, with key X-ray diffraction evidence from Rosalind Franklin."],
+    "category": "Biology"
+  },
+  {
+    "id": "msmarco_xi_110",
+    "lang": "hinglish",
+    "lang_name": "Hinglish",
+    "title": "AI Neural Networks Working",
+    "query": "Neural networks kaise kaam karte hain in artificial intelligence?",
+    "query_en": "How do neural networks work in artificial intelligence?",
+    "passage": "Artificial Neural Networks human brain ke biological neurons se inspire hoke bane hain. Unme input layer, hidden layers aur output layer hote hain. Forward propagation ke waqt weights and biases apply hote hain, aur error calculate karne ke baad Backpropagation algorithm gradients dwara weights ko optimize karta hai.",
+    "answers": ["Layers of node connections adjust weights and biases via forward propagation and backpropagation optimization."],
+    "category": "Technology"
+  },
+  {
+    "id": "msmarco_xi_111",
+    "lang": "hi",
+    "lang_name": "Hindi",
+    "title": "Indian Constitution Adoption",
+    "query": "भारतीय संविधान कब लागू हुआ और इसे बनने में कितना समय लगा?",
+    "query_en": "When did the Indian Constitution come into effect and how long did it take to draft?",
+    "passage": "भारतीय संविधान 26 नवंबर 1949 को संविधान सभा द्वारा अपनाया गया था और 26 जनवरी 1950 को पूर्ण रूप से लागू हुआ। डॉ. बी.आर. अंबेडकर की अध्यक्षता वाली प्रारूप समिति ने इसे 2 वर्ष, 11 महीने और 18 दिन में तैयार किया था।",
+    "answers": ["26 जनवरी 1950 को लागू हुआ; इसे बनने में 2 साल 11 महीने 18 दिन लगे।"],
+    "category": "Civics"
+  },
+  {
+    "id": "msmarco_xi_112",
+    "lang": "en",
+    "lang_name": "English",
+    "title": "Solar System Largest Planet",
+    "query": "Which is the largest planet in our solar system?",
+    "query_en": "Which is the largest planet in our solar system?",
+    "passage": "Jupiter is the largest planet in our Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined. It is famous for its Great Red Spot, a giant storm that has raged for centuries.",
+    "answers": ["Jupiter"],
+    "category": "Astronomy"
+  }
+]
