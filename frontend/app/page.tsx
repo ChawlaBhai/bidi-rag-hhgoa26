@@ -289,10 +289,10 @@ export default function Home() {
     <div className="min-h-screen p-3 md:p-4 flex flex-col md:flex-row gap-4 max-w-[1550px] mx-auto text-ink font-sans text-xs">
       
       {/* LEFT COLUMN: Logo, Settings, Info */}
-      <div className="w-full md:w-[280px] flex flex-col gap-2.5 shrink-0">
+      <div className="w-full md:w-[280px] flex flex-col gap-2.5 shrink-0 order-2 md:order-1 md:h-[calc(100vh-2rem)] md:overflow-y-auto custom-scrollbar md:pr-1">
         
         {/* Logo & Header */}
-        <div className="border-2 border-ink shadow-neo rounded-xl p-3 bg-[#F0F5FF] text-accent-blue text-center flex flex-col items-center">
+        <div className="hidden md:flex border-2 border-ink shadow-neo rounded-xl p-3 bg-[#F0F5FF] text-accent-blue text-center flex-col items-center">
           <div className="w-full flex items-center justify-center p-1 mb-1">
             <Image src="/logo.png" alt="VoiceRAG Logo" width={160} height={45} className="object-contain" />
           </div>
@@ -424,8 +424,18 @@ export default function Home() {
       </div>
 
       {/* CENTER COLUMN: Hero Mic + Query Stream */}
-      <div className="flex-1 flex flex-col gap-4 h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar pr-1">
+      <div className="flex-1 flex flex-col gap-4 md:h-[calc(100vh-2rem)] md:overflow-y-auto custom-scrollbar md:pr-1 order-1 md:order-2">
         
+        {/* Mobile Logo (Hidden on Desktop) */}
+        <div className="md:hidden border-2 border-ink shadow-neo rounded-xl p-3 bg-[#F0F5FF] text-accent-blue text-center flex flex-col items-center">
+          <div className="w-full flex items-center justify-center p-1 mb-1">
+            <Image src="/logo.png" alt="VoiceRAG Logo" width={160} height={45} className="object-contain" />
+          </div>
+          <h1 className="text-lg font-bold tracking-tight selection:bg-accent-pink selection:text-white">VoiceRAG</h1>
+          <p className="font-mono text-[10px] opacity-90">Participation by Sahaj Chawla</p>
+          <div className="mt-1 text-[9px] uppercase font-bold tracking-widest opacity-80 border-t border-accent-blue/20 pt-1 w-full">HH Goa 2026</div>
+        </div>
+
         {/* Interaction Hero Card (Single Input) */}
         <div className="neo-container p-5 bg-white relative overflow-hidden flex flex-col items-center justify-center min-h-[220px] shrink-0">
           <div className="absolute -top-10 -right-10 w-36 h-36 bg-accent-pink/10 rounded-full blur-2xl pointer-events-none"></div>
@@ -621,7 +631,7 @@ export default function Home() {
       </div>
 
       {/* RIGHT COLUMN: Pipeline & Strategies */}
-      <div className="w-full md:w-[280px] flex flex-col gap-2.5 shrink-0">
+      <div className="w-full md:w-[280px] flex flex-col gap-2.5 shrink-0 order-3 md:order-3 md:h-[calc(100vh-2rem)] md:overflow-y-auto custom-scrollbar md:pl-1">
         
         {/* 8-Stage Pipeline */}
         <div className="neo-container p-3">
